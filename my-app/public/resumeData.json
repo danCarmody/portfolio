@@ -78,19 +78,40 @@
         "skills": [
             {
                 "name": "Git",
+                "level": "80%",
                 "description": "I use git for all of my projects, it is my go to tool to use for version control and have used to delve into Open Source Projects.",
                 "image": "git.png"
             },
             {
                 "name": "ReactJS",
+                "level": "65%",
                 "description": "React has fast become one of my favorite and most common tools used for front end development. All of my current projects have used it as a based and I look forward to continuing to learn and master it.",
                 "image": "react.png"
             },
             {
                 "name": "Python",
+                "level": "73%",
                 "description": "python has become the language I use most for backend development as well as what I am most comfortable using for data-structure and algorithim programming.",
                 "image": "python.png"
 
+            },
+            {
+                "name": "JavaScript",
+                "level": "71%",
+                "description": "Acts as my primary front end development language choice. I've come to love the number of frameworks libraries for javascript and the incredible things capable with them.",
+                "image": "javascript.png"
+            },
+            {
+                "name": "Flask",
+                "level": "62%",
+                "description": "Microframework for python that offers a fast and easy solution for setting up a webapplications.",
+                "image": "flask.png"
+            },
+            {
+                "name": "Netlify",
+                "level": "60%",
+                "description": "Tool of choice for hosting my serverless applications and static webpages.",
+                "image": "netlify.png"
             }
         ]
 
