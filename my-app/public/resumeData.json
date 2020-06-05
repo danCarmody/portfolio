@@ -2,7 +2,98 @@
     "main": {
         "name": "Dan Carmody",
         "occupation": "Software Developer",
-        "description": "Just your everyday developer with a love for React and Coffee.",
-        "image":
+        "description": "Currently searching for a full time position.",
+        "image":"Professional_Dan.jpg",
+        "bio": "Just your everday developer with a love for coding, passion for development, and an appreciation for creative problem solving.",
+        "contactMessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+        "email": "danCarmody93@gmail.com",
+        "address": {
+            "city": "San Diego",
+            "state": "California",
+            "zip": "92008"
+        },
+        "website": "http://danCarmody93.com",
+        "resumedownload": "https://drive.google.com/uc?export=pdf&id=1MZuwzTc71jRFOxVWblYPq5i9NIiaXOnJ",
+        "social": [
+            {
+                "name": "Linkedin",
+                "url": "https://www.linkedin.com/in/dancarmody93",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/danCarmody",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "Email",
+                "url": "mailto:danCarmody93@gmail.com?",
+                "className": "fa fa-envelope-o"
+            }
+        ]
+    },
+    "resume": {
+        "skillsmessage": "I'm always excited to learn and work with new technologies, but here are some that I have particularly enjoyed:",
+        "education": {
+            
+                "school": "Arizona State University",
+                "years" : "2013 - 2018"
+            
+        },
+        "work": [
+            {
+                "company": "Laboratory of Energy And Powered Solutions",
+                "project": "Resiliency Infrastructure Simulation Environment",
+                "position": "Software Developer",
+                "years": "May 2016 - May 2018",
+                "description": "Developed a full stack simulation environment that illustrated the interconnections of power and water networks."
+            },
+            {
+                "company": "Local Language Access",
+                "project": "Local Language Access Website",
+                "position": "Software Developer",
+                "years": "January 2020 - Current",
+                "description": "Creating a digital platform for the organization Local Language Access."
+            }
+        ],
+
+        "Projects": [
+            {
+                "title": "Hachi Ramen Website",
+                "description": "A sample website based on the resturant Hachi Ramen.",
+                "link": "implemented at a later date"
+            },
+            {
+                "title": "Dynamic Drag and Drop Board",
+                "description": "Utilizing react-beautiful-dnd features to create a dynamic board for setting rewards across different columns, saving current state, and reloading previous state.",
+                "link": "implemented at a later date"
+            },
+            {
+                "title": "Language Policy Database",
+                "description": "Database application that pulls information from ProPublica Congress API and sorts bills based on language rights and accessibility.",
+                "link":"implemented at a later date"
+            }
+        ],
+
+        "skills": [
+            {
+                "name": "Git",
+                "description": "I use git for all of my projects, it is my go to tool to use for version control and have used to delve into Open Source Projects.",
+                "image": "git.png"
+            },
+            {
+                "name": "ReactJS",
+                "description": "React has fast become one of my favorite and most common tools used for front end development. All of my current projects have used it as a based and I look forward to continuing to learn and master it.",
+                "image": "react.png"
+            },
+            {
+                "name": "Python",
+                "description": "python has become the language I use most for backend development as well as what I am most comfortable using for data-structure and algorithim programming.",
+                "image": "python.png"
+
+            }
+        ]
+
     }
+
 }
