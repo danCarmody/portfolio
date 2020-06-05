@@ -116,19 +116,19 @@
             {
                 "name": "Photoshop",
                 "level": "63%",
-                "description": "",
+                "description": "Photoshop is my main tool used for image editing for content I use.",
                 "image": "photoshop.png"
             },
             {
                 "name": "Illustrator",
                 "level": "66%",
-                "description": "",
+                "description": "Illustrator on the other hand is my go to tool for vector graphics and creating scalable logos and designs",
                 "image": "illustrator.png"
             },
             {
                 "name": "InDesign",
                 "level": "67",
-                "description": "",
+                "description": "Lastly, indesign has become my prefered way to create fast and clean blueprints for how I want to set up and design sites and applications.",
                 "image": "indesign.png"
             }
         ]
