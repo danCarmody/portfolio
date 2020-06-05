@@ -112,6 +112,24 @@
                 "level": "60%",
                 "description": "Tool of choice for hosting my serverless applications and static webpages.",
                 "image": "netlify.png"
+            },
+            {
+                "name": "Photoshop",
+                "level": "63%",
+                "description": "",
+                "image": "photoshop.png"
+            },
+            {
+                "name": "Illustrator",
+                "level": "66%",
+                "description": "",
+                "image": "illustrator.png"
+            },
+            {
+                "name": "InDesign",
+                "level": "67",
+                "description": "",
+                "image": "indesign.png"
             }
         ]
 
