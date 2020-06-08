@@ -32,4 +32,66 @@ jQuery(document).ready(function($) {
         offset: '35%'
     });
 
-})
+    $('header').css({'height': $(window).height()});
+    $(window).on('resize', function() {
+        $('header').css({ 'height': $(window).height() });
+        $('body').css({ 'width': $(window).width() })
+    });
+
+    $(window).on('scroll', function() {
+            const h = $('header').height();
+            const y = $('window').scrollTop();
+        const nav = $('#nav-wrap');
+            if( (y > h*.20) && (y < h) && ( $(window.outerWidth() >768) ) ) {
+                nav.fadeOut('fast');
+            }
+            else {
+                if (y< h*.20) {
+                    nav.removeClass('opaque').fadeIn('fast');
+                }
+
+                else {
+                    nav.addClass('opaque').fadeIn('fast');
+                }
+            }        
+    });
+
+    $('.item-wrap a').magnificPopup({
+        type: 'inline',
+        fixedContentPos: false,
+        removalDelay: 200,
+        showCloseBtn: false,
+        mainClass: 'mfp-fade' 
+    });
+    
+    $('form#contactForm button.submit').click(function() {
+        $('#image-loader').fadeIn();
+
+        const contactName = $('#contactForm #contactName').val();
+        const contactEmail = $('#contactForm #contactEmail').val();
+        const contactSubject = $('#contactForm #contactSubject').val();
+        const contactMessage = $('#contactForm #contactMessage').val();
+
+        const data = 'contactName' + contactName + '&contactEmail' + contactEmail + '&contactSubject' + contactSubject + '&contactMessage' + contactMessage;
+
+        $.ajax({
+            type:"POST",
+            url: "inc/sendEmail.php",
+            data: data,
+            success: function(msg) {
+                if(msg == 'OK') {
+                    $('#image-loader').fadeOut();
+                    $('#message-warning').hide();
+                    $('#contactForm').fadeOut();
+                    $('#message-success').fadeIn();
+                }
+                else {
+                    $('#image-loader').fadeOut();
+                    $('#message-warning').html(msg);
+                        $('#message-warning').fadeIn();
+                }
+            }
+        });
+        return false;
+    });
+});
