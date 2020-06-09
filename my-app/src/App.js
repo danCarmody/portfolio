@@ -3,6 +3,8 @@ import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './components/Header';
+import About from './components/About';
+import Contact from './components/Contact';
 
 class App extends Component {
   constructor(props) {
@@ -17,12 +19,16 @@ class App extends Component {
   }
 
   getResumeData() {
+    const load = document.getElementById('siteLoading')
     $.ajax({
       url: '/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
         this.setState({resumeData: data});
+        setTimeout(() => {
+          load.outerHTML='';
+        }, 500)
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
@@ -39,6 +45,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Contact data={this.state.resumeData.main}/>
       </div>
     )
   }
