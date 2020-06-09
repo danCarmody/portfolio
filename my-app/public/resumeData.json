@@ -59,9 +59,14 @@
 
         "Projects": [
             {
+                "title": "Resiliency Infrastructure Simulation Environment",
+                "description": "Single page, full stack, application that allows users to create, simulate, and study how power and water networks interact and influence one another.",
+                "link": "https://www.asuleaps.com/rise"
+            },
+            {
                 "title": "Hachi Ramen Website",
                 "description": "A sample website based on the resturant Hachi Ramen.",
-                "link": "implemented at a later date"
+                "link": "https://www.hachiramenAZ.com"
             },
             {
                 "title": "Dynamic Drag and Drop Board",
@@ -71,7 +76,7 @@
             {
                 "title": "Language Policy Database",
                 "description": "Database application that pulls information from ProPublica Congress API and sorts bills based on language rights and accessibility.",
-                "link":"implemented at a later date"
+                "link":"https://www.locallanguage.com/bills"
             }
         ],
 
