@@ -87,13 +87,13 @@
                 "name": "Git",
                 "level": "80%",
                 "description": "I use git for all of my projects, it is my go to tool to use for version control and have used to delve into Open Source Projects.",
-                "image": "git.png"
+                "image": "git.jpg"
             },
             {
                 "name": "ReactJS",
                 "level": "65%",
                 "description": "React has fast become one of my favorite and most common tools used for front end development. All of my current projects have used it as a based and I look forward to continuing to learn and master it.",
-                "image": "react.png"
+                "image": "react.jpg"
             },
             {
                 "name": "Python",
