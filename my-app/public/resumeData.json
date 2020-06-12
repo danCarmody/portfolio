@@ -37,7 +37,9 @@
         "education": {
             
                 "school": "Arizona State University",
-                "years" : "2013 - 2018"
+                "years" : "2013 - 2018",
+                "degree": "Bachelors of Science in Software Engineering",
+                "description": "I attended Arizona State University through my formative college years. During my time at ASU, I developed a passion for software engineering and learning more about web and mobile development. Now that I have left the university, I maintain that passion and drive to continue learning and growing as a developer. "
             
         },
         "work": [
@@ -111,6 +113,12 @@
                 "level": "62%",
                 "description": "Microframework for python that offers a fast and easy solution for setting up a webapplications.",
                 "image": "flask.png"
+            },
+            {
+                "name": "MySQL",
+                "level": "61%",
+                "description": "The relational database language I primarily use. I picked it up as a way to learn relational databases and have stuck with it. I have found that it integrates well with my tools of choice.", 
+                "image": "mysql.png"
             },
             {
                 "name": "Netlify",
