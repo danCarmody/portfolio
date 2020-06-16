@@ -37,7 +37,8 @@
         "education": {
             
                 "school": "Arizona State University",
-                "years" : "2013 - 2018"
+                "degree": "Bachelors of Science in Software Engineering",
+                "years" : " August, 2013 -  May, 2018"
             
         },
         "work": [
@@ -61,22 +62,26 @@
             {
                 "title": "Resiliency Infrastructure Simulation Environment",
                 "description": "Single page, full stack, application that allows users to create, simulate, and study how power and water networks interact and influence one another.",
-                "link": "https://www.asuleaps.com/rise"
+                "image": "RISE.png",
+                "url": "https://www.asuleaps.com/rise"
             },
             {
                 "title": "Hachi Ramen Website",
                 "description": "A sample website based on the resturant Hachi Ramen.",
-                "link": "https://www.hachiramenAZ.com"
+                "image": "Hachi-Cover.png",
+                "url": "https://www.github.com/danCarmody"
             },
             {
                 "title": "Dynamic Drag and Drop Board",
                 "description": "Utilizing react-beautiful-dnd features to create a dynamic board for setting rewards across different columns, saving current state, and reloading previous state.",
-                "link": "implemented at a later date"
+                "image": "Drag_N_Drop.png",
+                "url": "https://www.github.com/danCarmody"
             },
             {
                 "title": "Language Policy Database",
                 "description": "Database application that pulls information from ProPublica Congress API and sorts bills based on language rights and accessibility.",
-                "link":"https://www.locallanguage.com/bills"
+                "image": "Local_Language_Access.png",
+                "url":"https://www.github.com/danCarmody"
             }
         ],
 
